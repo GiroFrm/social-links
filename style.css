@@ -61,3 +61,27 @@
     --fw-600: 600;
     --fw-700: 700;
   }
+
+  body{
+    font-family: var(--font-family);
+    font-size: var(--fs-100);
+    background-color: var(--off-black);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+  }
+
+  img{
+    border-radius: 50%;
+    width: 6rem;
+   margin: auto;
+    font-weight: var(--fw-600);
+  }
+
+  article{
+    background-color: var(--dark-grey);
+    text-align: center;
+  }
